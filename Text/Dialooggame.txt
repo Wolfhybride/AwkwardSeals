@@ -42,6 +42,15 @@ Student1: "Pak het maar als je kan!"
 Student1: "Okey hier heb je je Final assingment 2"
 *je hebt Final assingment 2*
 
+Floor 2
+Coffie apperaat: "Je koffie beker word tot over de rand gevult zonde van de koffie"
+Lift: "Climbing the stairway to heaven!" *het is gewoon een lift*
+Student1: "Hey jij jah jij! ik heb Final assingment 2 nodig!"
+*battle starts*
+*battle ends*
+Student1: "Okay okay ik ga al"
+*student laat een usb vallen met Final assingment 3 er op*
+
 
 
 
