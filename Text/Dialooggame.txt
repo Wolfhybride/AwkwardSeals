@@ -51,8 +51,20 @@ Student1: "Hey jij jah jij! ik heb Final assingment 2 nodig!"
 Student1: "Okay okay ik ga al"
 *student laat een usb vallen met Final assingment 3 er op*
 
+Floor 3
+Coffie apperaat: "POWER REFILLED! ENJOY YOUR POWER HUMAN!"
+Lift: "Deze lift gaat 1 verdieping omhoog. niet 2 niet 3 maar 1 verdieping omhoog"
+Student1: 
 
+Floor 4
+Coffie apperaat: "ERROR 101 Koffee not found Please wait for free coffee"
+*+enargy*
+Lift: "I am a stegosaurus!"
+Student1:
 
+Floor 5
+Coffie apperaat: "YOU GOT THE TUTCH YOU GOT THE POWER!"
+Lift: "Liften zijn net mensen ze hebben ook ups en downs."
 
 Sander battle:
 Player: "(...)"
@@ -71,7 +83,23 @@ Sander: "Wat denk je dat mijn code sleght is? Laat maar zien datje het beter kan
 Sander: "On second thought, let's not go to Camelot. It is a silly place. "
 *you have Won*
 
+Floor 6
+Coffie apperaat: "Cup O'Coffee for tired students trying to keep them self together. "
+Lift: "Alle knopjes behalve 7 zijn kapot in deze lift dan maar naar 7de verdieping toe. " 
+Student1:
 
+Floor 7
+Coffie apperaat: "Dit is het Koffie Apperaat van students.INC, Kost alsnog geld"
+Lift: "Deze glaze lift is ooit onderdeel geweest van een chocolade fabriek"
+Student1:
 
+Floor 8
+Coffie apperaat: "POWER IS OVER 9000!"
+Trap: "STAIRS MY ONLY WEAKNESS!"
+Student1:
+
+Roof
+
+Ultimate bart battle:
 
 
