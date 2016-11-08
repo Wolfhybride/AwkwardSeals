@@ -9,4 +9,60 @@ Tutorial (lvl 0)
 Welkom op de daltonlaan 200: (kamer is afgebeeld van alle spullen die er zijn)
 (klick je student praaten aan dan zecht de student): Welkom ik ga je de basis uitleggen van python (en start het tutorial gevecht)
 (koffee apparaat): Dit is een koffie apperaat. Er komt koffie uit. je krijgt +10 enargy
-(lift, aka verdieping omhoog) bing bong *door opens* je stapt 
+(lift, aka verdieping omhoog) Bing bong *Lift gaat omhoog* bong bing.
+
+Floor 1
+Lokaal van bart
+Bart: "welkom allemaal bij de cursus python ik wil graag hoofdstuk 1 afzien binnen een uur."
+Student1: "Meneer hoe werkt python?"
+Bart: "Mag ik helaas niet vertellen dat moet je zelf uitzoeken"
+*Klass word rumoerig*
+*Je leest braaf je textboek en maakt de vragen van hoofstuk 1 simple tog?*
+Bart: "Okay jullie hoeven alle opdrachten einde van de periode pas in te leveren maar final assingments moeten vanaf nu elke week worden nagekeken in de les"
+Bart: "Ik wil dus aan het einde van de periode jullie portfolio hebben in mijn mail met allen opdrachten en final assingments van hoofdstuk 1 tot en met 8"
+Bart: "Als er nog vragen zijn kunnen jullie mij altijd mailen, ik ben de komende 2 weeken wel op vakantie"
+Student1:"dat wordt simpel tog?"
+*Zo veel later dat je nog 5 dagen hebt om alles te maken en niks hebt gemaakt de hele periode*
+
+*Verzamel allen opdrachten van studenten en doe er alles aan om ze bij elkaar te verzamelen, veel success*
+
+
+
+Floor 1
+Coffie apperaat: "Er druipt een bruine slurrie in een papieren bekertje." 
+
+Lift: Player: "Beam me up scottie" *player is nu een verdieping omhoog*
+Student1: "Hey ik heb Final assingment 2 als jij 3 hebt?" 
+Player: (...)
+Student1: (...)
+Player: (...)
+Student1: "Pak het maar als je kan!"
+*fight starts*
+*fight ends*
+Student1: "Okey hier heb je je Final assingment 2"
+*je hebt Final assingment 2*
+
+
+
+
+Sander battle:
+Player: "(...)"
+Sander: "wat is er? oh ik zie het all je doet het allemaal verkeert laat mij maar even"
+*sander zit achter je laptop*
+Sander: "'Tis but a scratch!"
+Sander: "...and that, my liege, is how we know the Earth to be banana-shaped. "
+Sander: "I'm a lumberjack and I'm OK I sleep all night and I work all day."
+Sander: " cut down trees, I eat my lunch. I go to the lavatory. On Wednesdays I go shopping and have buttered scones for tea."
+Sander: "I cut down trees, I skip and jump. I like to press wild flowers. I put on women's clothing and hang around in bars."
+Sander: "I cut down trees, I wear high heels. Suspendies and a bra. I wish I'd been a girlie, just like my dear pappa."
+Player: "(...)"
+Sander: "Wat denk je dat mijn code sleght is? Laat maar zien datje het beter kan!"
+*battle starts*
+*battle ends*
+Sander: "On second thought, let's not go to Camelot. It is a silly place. "
+*you have Won*
+
+
+
+
+
