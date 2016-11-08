@@ -1,0 +1,78 @@
+<all>
+
+  <characters>
+    <player_0>
+        <name>Mango</name>
+		<health>10</health>
+		<energy>20</energy>
+		<moneyz>5</moneyz>
+		<inventory>
+- Laptop
+- Note_1
+- Homework_Assignment_1
+- Pen
+		</inventory>
+    </player_0>
+	<player_1>
+        <name>ROM</name>
+		<health>10</health>
+		<energy>20</energy>
+		<moneyz>3</moneyz>
+		<inventory>
+			<item>Laptop</item>
+			<item>Note_1</item>
+			<item>Homework_Assignment_1</item>
+			<item>Pen</item>
+		</inventory>
+	</player_1>
+  </characters>
+  
+  <ascii>
+      <studentLife_0>
+
+  _____  _               _               _     _       _   __
+
+
+      </studentLife_0>
+      <studentLife_1>
+
+    _____  _               _               _     _       _   __
+ / ____|| |             | |             | |   | |     (_) / _|
+
+      </studentLife_1>
+      <studentLife_2>
+
+    _____  _               _               _     _       _   __
+ / ____|| |             | |             | |   | |     (_) / _|
+| (___  | |_  _   _   __| |  ___  _ __  | |_  | |      _ | |_  ___
+
+      </studentLife_2>
+      <studentLife_3>
+
+    _____  _               _               _     _       _   __
+ / ____|| |             | |             | |   | |     (_) / _|
+| (___  | |_  _   _   __| |  ___  _ __  | |_  | |      _ | |_  ___
+ \___ \ | __|| | | | / _` | / _ \| '_ \ | __| | |     | ||  _|/ _ \
+
+      </studentLife_3>
+      <studentLife_4>
+
+    _____  _               _               _     _       _   __
+ / ____|| |             | |             | |   | |     (_) / _|
+| (___  | |_  _   _   __| |  ___  _ __  | |_  | |      _ | |_  ___
+ \___ \ | __|| | | | / _` | / _ \| '_ \ | __| | |     | ||  _|/ _ \
+ ____) || |_ | |_| || (_| ||  __/| | | || |_  | |____ | || | |  __/
+
+      </studentLife_4>
+      <studentLife_5>
+
+    _____  _               _               _     _       _   __
+ / ____|| |             | |             | |   | |     (_) / _|
+| (___  | |_  _   _   __| |  ___  _ __  | |_  | |      _ | |_  ___
+ \___ \ | __|| | | | / _` | / _ \| '_ \ | __| | |     | ||  _|/ _ \
+ ____) || |_ | |_| || (_| ||  __/| | | || |_  | |____ | || | |  __/
+|_____/  \__| \__,_| \__,_| \___||_| |_| \__| |______||_||_|  \___|
+
+    </studentLife_5>
+  </ascii>
+</all>
