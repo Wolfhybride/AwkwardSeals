@@ -1,38 +1,38 @@
 Prologue:
-Welkom op de hogeschool utrecht. Je bent officieel aangenomen om deel te nemen aan de oplijding HBO-ICT.
-Wij wensen je veel success op je nieuwe oplijding en veel plezier op je intro dag.
+Welkom op de Hogeschool utrecht. Je bent officieel aangenomen om deel te nemen aan de opleiding HBO-ICT.
+Wij wensen je veel success op je nieuwe opleiding, veel plezier op de intro dag.
 
 Introdag: 
 (ben ik niet geweest geen idee hoe het ging haha xD)
 
 Tutorial (lvl 0)
 Welkom op de daltonlaan 200: (kamer is afgebeeld van alle spullen die er zijn)
-(klick je student praaten aan dan zecht de student): Welkom ik ga je de basis uitleggen van python (en start het tutorial gevecht)
-(koffee apparaat): Dit is een koffie apperaat. Er komt koffie uit. je krijgt +10 enargy
-(lift, aka verdieping omhoog) Bing bong *Lift gaat omhoog* bong bing.
+(klik je student aan, dan zegt de student): Welkom ik ga je de basis uitleggen van python. (en start het tutorial gevecht)
+(koffee apparaat): Dit is een koffiezetapperaat. Er komt koffie uit het apparaat. Je krijgt +10 energy
+(lift, aka verdieping omhoog) Bing bong *De lift gaat omhoog* Bong bing.
 
 Floor 1
 Lokaal van bart
-Bart: "welkom allemaal bij de cursus python ik wil graag hoofdstuk 1 afzien binnen een uur."
-Student1: "Meneer hoe werkt python?"
-Bart: "Mag ik helaas niet vertellen dat moet je zelf uitzoeken"
+Bart: "Welkom allemaal bij de cursus Python. Ik wil graag dat we hoofdstuk één binnen een uur hebben afgerond."
+Student1: "Meneer, hoe werkt python?"
+Bart: "Mag ik helaas niet vertellen, dat moet je zelf uitzoeken"
 *Klass word rumoerig*
-*Je leest braaf je textboek en maakt de vragen van hoofstuk 1 simple tog?*
-Bart: "Okay jullie hoeven alle opdrachten einde van de periode pas in te leveren maar final assingments moeten vanaf nu elke week worden nagekeken in de les"
-Bart: "Ik wil dus aan het einde van de periode jullie portfolio hebben in mijn mail met allen opdrachten en final assingments van hoofdstuk 1 tot en met 8"
-Bart: "Als er nog vragen zijn kunnen jullie mij altijd mailen, ik ben de komende 2 weeken wel op vakantie"
-Student1:"dat wordt simpel tog?"
-*Zo veel later dat je nog 5 dagen hebt om alles te maken en niks hebt gemaakt de hele periode*
+*Je leest braaf je Pythonboek en maakt de vragen van hoofstuk 1 simpel toch?*
+Bart: "Oké, jullie hoeven alle opdrachten pas aan het einde van de periode in te leveren. Maar de final assingments moeten vanaf nu elke week worden nagekeken in de les."
+Bart: "Ik wil dus aan het einde van de periode jullie portfolio hebben in mijn mail met alle opdrachten en final assingments van hoofdstuk 1 tot en met 8."
+Bart: "Als er nog vragen zijn kunnen jullie mij altijd mailen, Maar ik ben de komende weken wel op vakantie!"
+Student1:"Dat wordt simpel toch?"
+*Zo veel later dat je nog 5 dagen hebt om alles te maken en niks hebt gemaakt tijdens de gehele periode.*
 
-*Verzamel allen opdrachten van studenten en doe er alles aan om ze bij elkaar te verzamelen, veel success*
+*Verzamel alle final assignments, veel success*
 
 
 
 Floor 1
-Coffie apperaat: "Er druipt een bruine slurrie in een papieren bekertje." 
+Koffiezetapparaat: "Er druipt bruine slurrie in een papieren bekertje." 
 
 Lift: Player: "Beam me up scottie" *player is nu een verdieping omhoog*
-Student1: "Hey ik heb Final assingment 2 als jij 3 hebt?" 
+Student1: "Hé ik heb final assingment 2 als jij 3 hebt?" 
 Player: (...)
 Student1: (...)
 Player: (...)
@@ -40,35 +40,36 @@ Student1: "Pak het maar als je kan!"
 *fight starts*
 *fight ends*
 Student1: "Okey hier heb je je Final assingment 2"
-*je hebt Final assingment 2*
+*Je hebt final assingment 2 verkregen!*
 
 Floor 2
-Coffie apperaat: "Je koffie beker word tot over de rand gevult zonde van de koffie"
+Koffiezetapparaat: "Je beker koffie wordt tot over de rand gevult zonde van de koffie"
 Lift: "Climbing the stairway to heaven!" *het is gewoon een lift*
-Student1: "Hey jij jah jij! ik heb Final assingment 2 nodig!"
+Student1: "Hé jij, ja jij! Ik heb final assingment 2 nodig!"
 *battle starts*
 *battle ends*
-Student1: "Okay okay ik ga al"
-*student laat een usb vallen met Final assingment 3 er op*
+Student1: "Oké oké ik ga al"
+*Student laat een USB-stick vallen met final assingment 3 er op*
+*Je hebt final assingment 3 verkregen!*
 
 Floor 3
-Coffie apperaat: "POWER REFILLED! ENJOY YOUR POWER HUMAN!"
+Koffiezetapparaat: "POWER REFILLED! ENJOY YOUR POWER HUMAN!"
 Lift: "Deze lift gaat 1 verdieping omhoog. niet 2 niet 3 maar 1 verdieping omhoog"
 Student1: 
 
 Floor 4
-Coffie apperaat: "ERROR 101 Koffee not found Please wait for free coffee"
-*+enargy*
+Koffiezetapparaat: "ERROR 101 coffee not found please wait for free the coffee"
+*+energy*
 Lift: "I am a stegosaurus!"
 Student1:
 
 Floor 5
-Coffie apperaat: "YOU GOT THE TUTCH YOU GOT THE POWER!"
-Lift: "Liften zijn net mensen ze hebben ook ups en downs."
+Koffiezetapparaat: "YOU GOT THE TOUCH YOU GOT THE POWER!"
+Lift: "Liften zijn net mensen, ze hebben ook ups en downs."
 
 Sander battle:
 Player: "(...)"
-Sander: "wat is er? oh ik zie het all je doet het allemaal verkeert laat mij maar even"
+Sander: "Wat is er? Oh ik zie het al, je doet het allemaal verkeerd, laat mij maar even."
 *sander zit achter je laptop*
 Sander: "'Tis but a scratch!"
 Sander: "...and that, my liege, is how we know the Earth to be banana-shaped. "
@@ -77,29 +78,28 @@ Sander: " cut down trees, I eat my lunch. I go to the lavatory. On Wednesdays I 
 Sander: "I cut down trees, I skip and jump. I like to press wild flowers. I put on women's clothing and hang around in bars."
 Sander: "I cut down trees, I wear high heels. Suspendies and a bra. I wish I'd been a girlie, just like my dear pappa."
 Player: "(...)"
-Sander: "Wat denk je dat mijn code sleght is? Laat maar zien datje het beter kan!"
+Sander: "Wat, denk je dat mijn code slecht is? Laat maar zien dat je het beter kan!"
 *battle starts*
 *battle ends*
 Sander: "On second thought, let's not go to Camelot. It is a silly place. "
 *you have Won*
+*Je hebt final assignment 6 verkregen!*
 
 Floor 6
-Coffie apperaat: "Cup O'Coffee for tired students trying to keep them self together. "
-Lift: "Alle knopjes behalve 7 zijn kapot in deze lift dan maar naar 7de verdieping toe. " 
+Koffiezetapparaat: "Cup O'Coffee for tired students trying to keep themselves together. "
+Lift: "Alle knopjes behalve die van 7 zijn kapot in deze lift, dan maar naar 7e verdieping toe. " 
 Student1:
 
-Floor 7
-Coffie apperaat: "Dit is het Koffie Apperaat van students.INC, Kost alsnog geld"
-Lift: "Deze glaze lift is ooit onderdeel geweest van een chocolade fabriek"
+Floor 7 
+Koffiezetapparaat: "*BLIEP* Dit is het koffiezetapparaat van students.INC, Dit kost u alsnog geld *BLIEP*"
+Lift: "Deze glazen lift is ooit onderdeel geweest van een chocolade fabriek"
 Student1:
 
 Floor 8
-Coffie apperaat: "POWER IS OVER 9000!"
+Koffiezetapparaat: "POWER IS OVER 9000!"
 Trap: "STAIRS MY ONLY WEAKNESS!"
 Student1:
 
 Roof
 
 Ultimate bart battle:
-
-
