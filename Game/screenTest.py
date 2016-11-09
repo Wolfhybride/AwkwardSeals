@@ -1,8 +1,12 @@
 from main import *
+from studentLifeASCII import studentLife
+from Player_0 import player
+#write(".........")
+write((studentLife()))
 
 def return_entry(data):                                   #gets input and returns it
     data = console.get()
-    print(data)
+    #print(data)
     #write(data)
     choose(data)
     return data
@@ -10,22 +14,18 @@ def return_entry(data):                                   #gets input and return
 console.bind('<Return>', return_entry)
 
 def choose(choice):                                         #raw data that write(string) prints to the screen as text
-    write("Input >>> " + str(choice))
-    write("Output >>> ")
-    if choice == "1":
+    #write("     Output >>> ")
+    write("\n")
+    if choice == ">>> 1":
         write("You typed in number one!")
-    elif choice == "2":
-        import studentLifeASCII
-    elif choice == "3":
-        write(" Name: "+" {:6}".format(doc['all']['characters']['player_0']['name']))
-        write(" Health: "+ " {:6}".format(doc['all']['characters']['player_0']['health']))
-        write(" Energy: "+ " {:6}".format(doc['all']['characters']['player_0']['energy']))
-        write(" Moneyz: "+ " {:6}".format(doc['all']['characters']['player_0']['moneyz']))
-        write(" Inventory:\n" + "{:6}".format((doc['all']['characters']['player_0']['inventory'])))
-    elif choice == "4":
-        root.destroy()
+    elif choice == ">>> 2":
+        write((studentLife()))
+    elif choice == ">>> 3":
+        write((player()))
+    elif choice == ">>> 4":
+        raise SystemExit
     else:
-        write("You can only fill in numbers 1 to 4. 4 Terminates the program.")
+        write("You can only fill in numbers 1 to 4.\n     4 Terminates the program.")
     write("")
 
 mainloop()

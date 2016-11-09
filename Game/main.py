@@ -17,13 +17,13 @@ mainWindow = Text(
     foreground = ('white'),
     font = ('Courier',12),
     cursor = 'plus',
-    state = 'disable'
+    state = 'disable',
 )
-mainWindow.pack(anchor = 'center')
+mainWindow.pack(anchor = 'center', side = 'top')
 
 def write(string):                                          #print stuff to screen as text
     mainWindow.config(state='normal')
-    mainWindow.insert("end",string + "\n")
+    mainWindow.insert("end", "     " + string + "\n")
     mainWindow.see("end")
     mainWindow.config(state='disable')
 
@@ -40,4 +40,5 @@ console.pack(anchor = 'center',
              #fill = 'both',
              side = 'bottom'
              )
-#console.insert(0,">>> ")
+
+console.insert(0,">>> ")
