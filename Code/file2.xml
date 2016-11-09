@@ -1,0 +1,152 @@
+
+    <levels>
+        <level id="1_bart">
+            <items>
+                <item> Final Assignment 1 </item>
+                <item> item </item>
+                <item> item </item>
+            </items>
+            <actions>
+                <action>
+                    <description> Ga naar de koffie apparaat </description>
+                    <level_reference>2</level_reference>
+                </action>
+                <action>
+                    <description> Pak de lift naar de tweede verdieping </description>
+                    <level_reference>"3"</level_reference>
+                </action>
+                <action>
+                    <description> Maak Final Assignment 1 </description>
+                    <level_reference>"1"</level_reference>
+                </action>
+            </actions>
+            <ascii>
+
+            </ascii>
+            <dialoog>
+							<text> Bart: Welkom allemaal bij de cursus Python. Ik wil graag dat we hoofdstuk één binnen een uur hebben afgerond.</text>
+              <text> Student1: Meneer hoe werkt python? </text>
+              <text> Bart: Mag ik helaas niet vertellen, dat moet je zelf uitzoeken. </text>
+              <text> *Klas wordt rumoerig* </text>
+              <text> *Je leest braaf je textboek en maakt de vragen van hoofdstuk 1.* </text>
+              <text> Bart: Oké, jullie hoeven alle opdrachten pas aan het einde van de periode in te leveren. Maar de final assingments moeten vanaf nu elke week worden nagekeken in de les. </text>
+              <text> Bart: Ik wil dus aan het einde van de periode jullie portfolio hebben in mijn mail met alle opdrachten en final assignments. </text>
+              <text> Student 1: Dat wordt simpel, toch? </text>
+              <text> *Zo veel dagen later dat je nog maar 5 dagen hebt om alles te maken en nog niks hebt* </text>
+              <text> - Verzamel alle final assignments, veel success! </text>
+            </dialoog>
+        </level>
+        <level id = "2_koffieapparaat">
+                    <items>
+                <item> Final Assignment 2 </item>
+                <item> item </item>
+                <item> item </item>
+            </items>
+            <actions>
+                <action>
+                    <description> Spreek student 1 aan </description>
+                    <level_reference>2</level_reference>
+                </action>
+                <action> 
+                		<description> Ga naar de tweede verdieping </description>
+										<level_reference>3</level_reference>                    
+                </action> 
+                <action>
+                    <description> Pak de lift naar de derde verdieping </description>
+                    <level_reference>"4"</level_reference>
+                </action>
+                <action>
+                    <description> Ga terug naar het lokaal van Bart </description>
+                    <level_reference>"1"</level_reference>
+                </action>
+            </actions>
+            <ascii>
+
+            </ascii>
+            <dialoog>
+            #Koffiezetapparaat
+							<text> *Koffiezetapparaat: Er druipt bruine slurrie in een papieren bekertje* </text>
+            #Action: Pak de lift naar de derde verdieping
+            	<text> Lift: Player: "Beam me up scottie" </text>
+              <text> Player is nu een verdieping omhoog </text>
+            #Action: Spreek student 1 aan
+            	<text> Student 1: Hé ik heb  Final Assignment 2, als jij 1 hebt? </text>
+              <text> Player: (...) </text>
+              <text> Student 1: (...) </text>
+              <text> Player: (...) </text>
+              <text> Student 1: (...) </text>
+              <text> Student 1: Pak het maar als je kan! </text>
+              #fight begint, zodra afgelopen:
+              <text> Student 1: Hier heb je Final Assignment 2 </text>
+              <text> *Je hebt Final Assignment 2 gekregen! </text>
+            </dialoog>
+        </level>
+
+        <level id = "3_verdieping2">
+            <items>
+                <item> item </item>
+                <item> item </item>
+                <item> item </item>
+            </items>
+            <actions>
+                <action>
+                    <description> Haal koffie </description>
+                    <level_reference>2</level_reference>
+                </action>
+                <action>
+                    <description> Spreek student 2 aan </description>
+                    <level_reference>""</level_reference>
+                </action>
+                <action>
+                    <description> Pak de lift naar de derde verdieping </description>
+                    <level_reference>"4"</level_reference>
+                </action>
+            </actions>
+            <ascii>
+
+            </ascii>
+            <dialoog>
+							#Action: Haal koffie
+              <text> Koffiezetapparaat: "Je beker wordt tot over de rand gevult, zonde van de koffie" </text>
+              #Action: Spreek student 2 aan
+              <text> Student 2: Hé jij, ja jij! Ik heb Final Assignment 2 nodig! </text>
+              #Battle begint en eindigt:
+              <text> Student 2: Oké oké ik ga al </text>
+              <text> *Student 2 laat een USB-stick vallen met Final Assignment 3 er op* </text>
+              <text> - Je hebt final Assignment 3 verkregen! - </text>
+            </dialoog>
+        </level>
+    </levels>
+
+        <level id = "4_verdieping3">
+            <items>
+                <item> item </item>
+                <item> item </item>
+                <item> item </item>
+            </items>
+            <actions>
+                <action>
+                    <description> Haal koffie </description>
+                    <level_reference>2</level_reference>
+                </action>
+                <action>
+                    <description> Spreek student 3 aan </description>
+                    <level_reference>""</level_reference>
+                </action>
+                <action>
+                    <description> Pak de lift naar de vierde verdieping </description>
+                    <level_reference>"4"</level_reference>
+                </action>
+            </actions>
+            <ascii>
+
+            </ascii>
+            <dialoog>
+							#Haal koffie:
+              <text> Koffiezetapparaat: "POWER REFILLED! ENJOY YOUR POWER HUMAN!" </text>
+              #Lift
+              <text> Lift: "Deze lift gaat 1 verdieping omhoog. Niet 2, Niet 3 maar 1 verdieping omhoog." </text>
+              #Spreek student 3 aan
+              <text> Student 3:
+            </dialoog>
+    </level>
