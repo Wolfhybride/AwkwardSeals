@@ -1,5 +1,5 @@
 Prologue:
-Welkom op de Hogeschool utrecht. Je bent officieel aangenomen om deel te nemen aan de opleiding HBO-ICT.
+Welkom op de Hogeschool Utrecht. Je bent officieel aangenomen om deel te nemen aan de opleiding HBO-ICT.
 Wij wensen je veel success op je nieuwe opleiding, veel plezier op de intro dag.
 
 Introdag: 
@@ -19,7 +19,7 @@ Bart: "Mag ik helaas niet vertellen, dat moet je zelf uitzoeken"
 *Klass word rumoerig*
 *Je leest braaf je Pythonboek en maakt de vragen van hoofstuk 1 simpel toch?*
 Bart: "Oké, jullie hoeven alle opdrachten pas aan het einde van de periode in te leveren. Maar de final assingments moeten vanaf nu elke week worden nagekeken in de les."
-Bart: "Ik wil dus aan het einde van de periode jullie portfolio hebben in mijn mail met alle opdrachten en final assingments van hoofdstuk 1 tot en met 8."
+Bart: "Ik wil dus aan het einde van de periode jullie portfolio hebben in mijn mail met alle opdrachten en final assignments."
 Bart: "Als er nog vragen zijn kunnen jullie mij altijd mailen, Maar ik ben de komende weken wel op vakantie!"
 Student1:"Dat wordt simpel toch?"
 *Zo veel later dat je nog 5 dagen hebt om alles te maken en niks hebt gemaakt tijdens de gehele periode.*
@@ -37,8 +37,8 @@ Player: (...)
 Student1: (...)
 Player: (...)
 Student1: "Pak het maar als je kan!"
-*fight starts*
-*fight ends*
+*Battle starts*
+*Battle ends*
 Student1: "Okey hier heb je je Final assingment 2"
 *Je hebt final assingment 2 verkregen!*
 
@@ -46,8 +46,8 @@ Floor 2
 Koffiezetapparaat: "Je beker koffie wordt tot over de rand gevult zonde van de koffie"
 Lift: "Climbing the stairway to heaven!" *het is gewoon een lift*
 Student1: "Hé jij, ja jij! Ik heb final assingment 2 nodig!"
-*battle starts*
-*battle ends*
+*Battle starts*
+*Battle ends*
 Student1: "Oké oké ik ga al"
 *Student laat een USB-stick vallen met final assingment 3 er op*
 *Je hebt final assingment 3 verkregen!*
@@ -55,13 +55,24 @@ Student1: "Oké oké ik ga al"
 Floor 3
 Koffiezetapparaat: "POWER REFILLED! ENJOY YOUR POWER HUMAN!"
 Lift: "Deze lift gaat 1 verdieping omhoog. niet 2 niet 3 maar 1 verdieping omhoog"
-Student1: 
+Student1: "Ik hoorde dat jij iets hebt wat ik nodig heb. Het kan goed schiks of kwaad schiks jochie"
+Player: (...)
+*Battle starts*
+*Battle ends*
+Student1: "Wat een geluksvogel ben je ook. Uit goeie wil geef ik je een final assignment"
+*Je hebt final assignment 4 gekregen*
 
 Floor 4
 Koffiezetapparaat: "ERROR 101 coffee not found please wait for free the coffee"
 *+energy*
 Lift: "I am a stegosaurus!"
-Student1:
+Student1: "Hé, volgens mij ben jij die slimme student waar iedereen over praat. Kan jij me al jouw final assignments geven?*
+Player: (...)
+Student1: (...)
+*Battle starts*
+*Battle ends*
+Student1: "Oké oké ik ga al weg.. Sla me niet A.U.B. hier heb je final assignment 5"
+*Je hebt final assignment 5 gekregen*
 
 Floor 5
 Koffiezetapparaat: "YOU GOT THE TOUCH YOU GOT THE POWER!"
@@ -88,17 +99,28 @@ Sander: "On second thought, let's not go to Camelot. It is a silly place. "
 Floor 6
 Koffiezetapparaat: "Cup O'Coffee for tired students trying to keep themselves together. "
 Lift: "Alle knopjes behalve die van 7 zijn kapot in deze lift, dan maar naar 7e verdieping toe. " 
-Student1:
+Student1: "Hey jij daar! Ik hoorde dat jij bijna alle final assignments hebt. Jij kan zeker heel goed programmeren? Ik heb er maar eentje.. En dat is final assignment 7. Ik steel al je bacon als je me de rest niet geeft."
+Player: (...)
+Student1: (...)
+*Battle starts*
+*Battle ends*
+*Student1 rent weg en laat uit paniek zijn laptop liggen met het document open. Je mailt het naar jezelf*
+*Je hebt final assignment 7 gekregen*
 
 Floor 7 
 Koffiezetapparaat: "*BLIEP* Dit is het koffiezetapparaat van students.INC, Dit kost u alsnog geld *BLIEP*"
 Lift: "Deze glazen lift is ooit onderdeel geweest van een chocolade fabriek"
-Student1:
+Student1: "Jij mag hier hele groentje! Alleen de senior studenten zijn hier welkom. Wij aanbidden Bart op deze verdieping."
+Player: (...)
+Student1: Ik zal je een pak slaag geven op je muil."
+*Battle starts*
+*Battle ends*
+Student1: "Uit schaamte zal ik je mijn meesterwerk geven. Je kan Bart op het dak vinden. Zoek zelf maar uit hoe je daar terecht komt"
+*Je hebt final assignment 8 gekregen*
 
 Floor 8
 Koffiezetapparaat: "POWER IS OVER 9000!"
 Trap: "STAIRS MY ONLY WEAKNESS!"
-Student1:
 
 Roof
 
