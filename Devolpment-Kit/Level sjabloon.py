@@ -26,8 +26,8 @@ def choose(choice):                                         #raw data that write
            write(str(forwardText))
 
        elif (forwardText == 1):
-            koffietext()
-
+            koffietext((doc['all']['levels']['level1_bart']['dialoog']['barttext1']))
+#voorbeeld : koffietext((doc['all']['levels']['level1_bart']['dialoog']['barttext1']))
        elif (forwardText == 2):
             lifttext()
 
