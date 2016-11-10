@@ -1,0 +1,26 @@
+<all>
+    <levels>
+        <floor2_koffie>
+            <dialoog>
+                <koffietext2> Koffiezetapparaat: "Je beker koffie wordt tot over de rand gevult zonde van de koffie" </koffietext2>
+            </dialoog>
+        </floor2_koffie>
+        <floor2_lift>
+            <dialoog>
+                <lifttext2> Lift: "Climbing the stairway to heaven!" *het is gewoon een lift* </lifttext2>
+            </dialoog>
+        </floor2_lift>
+        <floor2_student>
+            <dialoog>
+                <studenttext2> Student1: "Hé jij, ja jij! Ik heb final assingment 2 nodig!" </studenttext2>
+            </dialoog>
+        </floor2_student>
+        <floor2_battle>
+            <dialoog>
+                <battletext2> Student1: "Oke oke ik ga al" </battletext2>
+                <battletext2> *Student laat een USB-stick vallen met final assingment 3 er op* </battletext2>
+                <battletext2> *Je hebt final assingment 3 verkregen!* </battletext2>
+            </dialoog>
+        </floor2_battle>
+    </levels>
+</all>
