@@ -1,0 +1,18 @@
+<all>
+    <levels>
+        <prologue>
+            <dialoog>
+                <text_prologue> Welkom op de Hogeschool Utrecht. Je bent officieel aangenomen om deel te nemen aan de opleiding HBO-ICT. </text_prologue>
+                <text_prologue> Wij wensen je veel success op je nieuwe opleiding, veel plezier op de intro dag. </text_prologue>
+            </dialoog>
+        </prologue>
+        <intro>
+            <dialoog>
+                <intro_text> Je bent nu daltonlaan 200: (kamer is afgebeeld van alle spullen die er zijn) </intro_text>
+                <intro_text> (klik je student aan, dan zegt de student): Welkom ik ga je de basis uitleggen van python. (en start het tutorial gevecht) </intro_text>
+                <intro_text> (koffee apparaat): Dit is een koffiezetapperaat. Er komt koffie uit het apparaat. Je krijgt +10 energy</intro_text>
+                <intro_text> (lift, aka verdieping omhoog) Bing bong *De lift gaat omhoog* Bong bing. </intro_text>
+            </dialoog>
+        </intro>
+    </levels>
+</all>
