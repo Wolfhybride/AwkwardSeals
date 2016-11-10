@@ -38,18 +38,50 @@ def defeat7():
     print("Uit schaamte zal ik je toegang geven tot deze verdieping. Je kan Bart op het dak vinden.")
     print("* Je hebt final assignment 8 verkregen!")
 
+health_Player = 15
+health_Student1 = 5
+
 def choose(choice):                                         #raw data that write(string) prints to the screen as text
    mainWindow.delete(0, END)
-   if (choice == ">>> 1"):
-       write("You used Huiswerk inleveren")
-   elif (choice == ">>> 2"):
-       write("You used Slimme vragen stellen")
-   elif (choice == ">>> 3"):
+
+        if health_Player <= 0:
+            write("You are DEAD!")
+            break
+
+       elif health_Student1 <= 0:
+           write("You are VICTORIOUS!")
+           break
+
+       elif (choice == ">>> 1"):
+           write("You used Huiswerk inleveren")
+           global health_Student1
+           health_Student1 -= 1
+
+
+           write(str(health_Student1))
+       elif (choice == ">>> 2"):
+           write("You used Slimme vragen stellen")
+           global health_Student1
+
+           health_Student1 -= 1
+
+           write(str(health_Student1))
+       elif (choice == ">>> 3"):
            write("You used Blackmail")
-   elif (choice == ">>> 4"):
-               write("You used Kopstoot")
-   else:
-        write("")
+           global health_Student1
+
+           health_Student1 -= 2
+
+           write(str(health_Student1))
+       elif (choice == ">>> 4"):
+           write("You used Kopstoot")
+           global health_Student1
+
+           health_Student1 -= 2.5
+
+           write(str(health_Student1))
+
+
 
 #startScreenfunction()
 
