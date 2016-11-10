@@ -1,0 +1,412 @@
+<all>
+
+  <characters>
+    <player_0>
+        <name>Mango</name>
+		<health>10</health>
+		<energy>20</energy>
+		<moneyz>5</moneyz>
+		<inventory>
+- Laptop
+- Note_1
+- Homework_Assignment_1
+- Pen
+		</inventory>
+    </player_0>
+	<player_1>
+        <name>ROM</name>
+		<health>10</health>
+		<energy>20</energy>
+		<moneyz>3</moneyz>
+		<inventory>
+			<item>Laptop</item>
+			<item>Note_1</item>
+			<item>Homework_Assignment_1</item>
+			<item>Pen</item>
+		</inventory>
+	</player_1>
+  </characters>
+
+
+    <levels>
+        <level id="bart">
+            <items>
+                <item> Final Assignment 1 </item>
+                <item> item </item>
+                <item> item </item>
+            </items>
+            <actions>
+                <action>
+                    <description> Ga naar de koffie apparaat </description>
+                    <level_reference>2</level_reference>
+                </action>
+                <action>
+                    <description> Pak de lift naar de tweede verdieping </description>
+                    <level_reference>"3"</level_reference>
+                </action>
+                <action>
+                    <description> Maak final Assignment 1 </description>
+                    <level_reference>"1"</level_reference>
+                </action>
+            </actions>
+            <ascii>
+
+            </ascii>
+            <dialoog>
+                <barttext1.1> Bart: "Welkom allemaal bij de cursus Python. Ik wil graag dat we hoofdstuk één binnen een uur hebben afgerond."</barttext1.1>
+                <barttext1.2> Student1: Meneer hoe werkt python? </barttext1.2>
+                <barttext1.3> Bart: Mag ik helaas niet vertellen, dat moet je zelf uitzoeken. </barttext1.3>
+                <barttext1.4> *Klas wordt rumoerig* </barttext1.4>
+                <barttext1.5> *Je leest braaf je textboek en maakt de vragen van hoofdstuk 1.* </barttext1.5>
+                <barttext1.6> Bart: Oké, jullie hoeven alle opdrachten pas aan het einde van de periode in te leveren. Maar de final assingments moeten vanaf nu elke week worden nagekeken in de les. </barttext1.6>
+                <barttext1.7> Bart: Ik wil dus aan het einde van de periode jullie portfolio hebben in mijn e-mail met alle opdrachten en final assignments. </barttext1.7>
+                <barttext1.8> Student 1: Dat wordt simpel, toch? </barttext1.8>
+                <barttext1.9> *Zo veel dagen later dat je nog maar 5 dagen hebt om alles te maken en nog niks hebt* </barttext1.9>
+                <barttext1.10> - Verzamel alle opdrachten en doe er alles aan om ze bij elkaar te verzamelen, anders wordt je uitgeschreven uit de opleiding!</barttext1.10>
+            </dialoog>
+        </level>
+        <level id = "verdieping_1">
+                    <items>
+                <item> Final Assignment 2 </item>
+                <item> item </item>
+                <item> item </item>
+            </items>
+            <actions>
+                <action>
+                    <description> Spreek student 1 aan </description>
+                    <level_reference>2</level_reference>
+                </action>
+                <action>
+                		<description> Pak de lift </description>
+										<level_reference>3</level_reference>
+                </action>
+                <action>
+                    <description> Ga terug naar het lokaal van Bart </description>
+                    <level_reference>"1"</level_reference>
+                </action>
+            </actions>
+            <ascii>
+
+            </ascii>
+            <dialoog>
+                #Koffiezetapparaat
+                <koffietext1.1> *Koffiezetapparaat: Er druipt een bruine slurrie in een papieren bekertje* </koffietext1.1>
+                #Pak de lift naar de tweede verdieping
+            	<lifttext1.1> Lift: "Beam me up scottie" </lifttext1.1>
+                <lifttext1.2> Player is nu een verdieping omhoog </lifttext1.2>
+                #Spreek student 1 aan
+            	<studenttext1.1> Student 1: Hé ik heb  final Assignment 2, als jij 1 hebt? </studenttext1.1>
+                <studenttext1.2> Player: (...) </studenttext1.2>
+                <studenttext1.3> Student 1: (...) </studenttext1.3>
+                <studenttext1.4> Player: (...) </studenttext1.4>
+                <studenttext1.5> Student 1: (...) </studenttext1.5>
+                <studenttext1.6> Student 1: Pak het maar als je kan! </studenttext1.6>
+                #Battle
+                <battletext1.1> Student 1: Hier heb je final Assignment 2 </battletext1.1>
+                <battletext1.2> *Je hebt Final Assignment 2 verkregen! </battletext1.2>
+            </dialoog>
+        </level>
+
+        <level id = "verdieping_2">
+            <items>
+                <item> Final Assignment 3 </item>
+                <item> item </item>
+                <item> item </item>
+            </items>
+            <actions>
+                <action>
+                    <description> Haal koffie </description>
+                    <level_reference>2</level_reference>
+                </action>
+                <action>
+                    <description> Spreek student 2 aan </description>
+                    <level_reference>""</level_reference>
+                </action>
+                <action>
+                    <description> Pak de lift </description>
+                    <level_reference>"4"</level_reference>
+                </action>
+            </actions>
+            <ascii>
+
+            </ascii>
+            <dialoog>
+                #Haal koffie
+                <koffietext2.1> Koffiezetapparaat: "Je beker wordt tot over de rand gevult, zonde van de koffie" </koffietext2.1>
+                #Lift
+                <lifttext2.1>Lift: "Climbing the stairway to heaven!" *het is gewoon een lift*</lifttext2.1>
+                #Spreek student 2 aan
+                <studenttext2.1> Student 2: Hé jij, ja jij! Ik heb Final Assignment 2 nodig! </studenttext2.1>
+                #Battle
+                <battletext2.1> Student 2: Oké oké ik ga al </battletext2.1>
+                <battletext2.2> *Student 2 laat een USB-stick vallen met Final Assignment 3 er op* </battletext2.2>
+                <battletext2.3> - Je hebt final Assignment 3 verkregen! - </battletext2.3>
+            </dialoog>
+        </level>
+    </levels>
+
+        <level id = "verdieping_3">
+            <items>
+                <item> Final Assignment 4 </item>
+                <item> item </item>
+                <item> item </item>
+            </items>
+            <actions>
+                <action>
+                    <description> Haal koffie </description>
+                    <level_reference>2</level_reference>
+                </action>
+                <action>
+                    <description> Spreek student 3 aan </description>
+                    <level_reference>""</level_reference>
+                </action>
+                <action>
+                    <description> Pak de lift naar de vierde verdieping </description>
+                    <level_reference>"4"</level_reference>
+                </action>
+            </actions>
+            <ascii>
+
+            </ascii>
+            <dialoog>
+                #Haal koffie:
+                <koffietext3.1> Koffiezetapparaat: "POWER REFILLED! ENJOY YOUR POWER HUMAN!" </koffietext3.1>
+                #Lift
+                <lifttext3.1> Lift: "Deze lift gaat 1 verdieping omhoog. Niet 2, Niet 3 maar 1 verdieping omhoog." </lifttext3.1>
+                #Spreek student 3 aan
+                <studenttext3.1> Student 3: "Ik hoorde dat jij iets hebt wat ik zoek. Het kan goedschiks of kwaadschiks jochie" </studenttext3.1>
+                <studenttext3.2>Player: (...)</studenttext3.2>
+                #Battle
+                <battletext3.1>Student 3: Wat een geluksvogel ben je ook. Uit goede wil geef ik je een final assignment!</battletext3.1>
+                <battletext3.2>- Je hebt final Assignment 4 verkregen! -</battletext3.2>
+            </dialoog>
+    </level>
+
+            <level id = "verdieping_4">
+            <items>
+                <item> Final Assignment 5 </item>
+                <item> item </item>
+                <item> item </item>
+            </items>
+            <actions>
+                <action>
+                    <description> Haal koffie </description>
+                    <level_reference>2</level_reference>
+                </action>
+                <action>
+                    <description> Spreek student 4 aan </description>
+                    <level_reference>""</level_reference>
+                </action>
+                <action>
+                    <description> Pak de lift naar de vijfde verdieping </description>
+                    <level_reference>"4"</level_reference>
+                </action>
+            </actions>
+            <ascii>
+
+            </ascii>
+            <dialoog>
+                #Haal koffie:
+                <koffietext4.1> Koffiezetapparaat: "ERROR 101 coffee not found please wait for free the coffee"</koffietext4.1>
+                <koffietext4.2> *+ Energy*</koffietext4.2>
+                #Lift
+                <lifttext4.1> Lift: "I am a Stegosaurus!" </lifttext4.1>
+                #Spreek student 4 aan
+                <studenttext4.1> Student 4: "Hé, volgens mij ben jij die slimme student waar iedereen over praat. Kan jij me al jouw Final Assignments geven?" </studenttext4.1>
+                <studenttext4.2> Player: (...)</studenttext4.2>
+                <studenttext4.3> Student 4: (...)</studenttext4.3>
+                #Battle
+                <battletext4.1> Student 4: "Oké oké ik ga al weg.. Ik ga wel economie studeren... Hier heb je Final Assignment 5</battletext4.1>
+                <battletext4.2> - Je hebt Final Assignment 5 gekregen! - </battletext4.2>
+            </dialoog>
+    </level>
+
+                <level id = "6_sander">
+            <items>
+                <item> Final Assignment 6 </item>
+                <item> item </item>
+                <item> item </item>
+            </items>
+            <actions>
+                <action>
+                    <description> Spreek Sander aan </description>
+                    <level_reference>""</level_reference>
+                </action>
+            </actions>
+            <ascii>
+
+            </ascii>
+            <dialoog>
+                #Sander
+                <sandertext5.1>Player: "(...)"</sandertext5.1>
+                <sandertext5.2>Sander: "Wat is er? Oh ik zie het al, je doet het allemaal verkeerd, laat mij maar even."</sandertext5.2>
+                <sandertext5.3>*Sander zit achter je laptop*</sandertext5.3>
+                <sandertext5.4>Sander: "'Tis but a scratch!"</sandertext5.4>
+                <sandertext5.5>Sander: "...and that, my liege, is how we know the Earth to be banana-shaped. "</sandertext5.5>
+                <sandertext5.6>Sander: "I'm a lumberjack and I'm OK I sleep all night and I work all day."</sandertext5.6>
+                <sandertext5.7>Sander: " cut down trees, I eat my lunch. I go to the lavatory. On Wednesdays I go shopping and have buttered scones for tea."</sandertext5.7>
+                <sandertext5.8>Sander: "I cut down trees, I skip and jump. I like to press wild flowers. I put on women's clothing and hang around in bars."</sandertext5.8>
+                <sandertext5.9>Sander: "I cut down trees, I wear high heels. Suspendies and a bra. I wish I'd been a girlie, just like my dear pappa."</sandertext5.9>
+                <sandertext5.10>Player: "(...)"</sandertext5.10>
+                <sandertext5.11>Sander: "Wat, denk je dat mijn code slecht is? Laat maar zien dat je het beter kan! GNA GNA"</sandertext5.11>
+                #Battle
+                <battletext5.1>Sander: "On second thought, let's not go to Camelot. It is a silly place. "</battletext5.1>
+                <battletext5.2>*You have won*</battletext5.2>
+                <battletext5.3>- Je hebt final assignment 6 verkregen! -</battletext5.3>
+            </dialoog>
+    </level>
+
+                    <level id = "verdieping_6">
+            <items>
+                <item> Final Assignment 7 </item>
+                <item> item </item>
+                <item> item </item>
+            </items>
+            <actions>
+                <action>
+                    <description> Haal koffie </description>
+                    <level_reference>""</level_reference>
+                </action>
+                <action>
+                    <description> Pak de lift </description>
+                    <level_reference>""</level_reference>
+                </action>
+                <action>
+                    <description> Spreek student aan </description>
+                    <level_reference>""</level_reference>
+                </action>
+            </actions>
+            <ascii>
+
+            </ascii>
+            <dialoog>
+                #Haal Koffie
+                <koffietext5.1>Koffiezetapparaat: "Cup O'Coffee for tired students trying to keep themselves together. "</koffietext5.1>
+                #Lift
+                <lifttext5.1>Lift: "Alle knopjes behalve die van 7 zijn kapot in deze lift, dan maar naar 7e verdieping toe. " </lifttext5.1>
+                #Spreekstudentaan
+                <studenttext5.1>Student1: "Hé jij daar! Ik hoorde dat jij bijna alle final assignments hebt. Jij kan zeker heel goed programmeren?"</studenttext5.1>
+                <studenttext5.2>Student1: "Ik heb er maar eentje.. En dat is final assignment 7. Ik steel al je bacon als je me de rest niet geeft."</studenttext5.2>
+                <studenttext5.3>Player: (...)</studenttext5.3>
+                <studenttext5.4>Student1: (...)</studenttext5.4>
+                #Battle
+                <battletext6.1>*Student1 rent weg en laat uit paniek zijn laptop liggen met het document open. Je mailt het naar jezelf, ook installeer je uit wraak MacOS X op zijn laptop*</battletext6.1>
+                <battletext6.2> - Je hebt final assignment 7 verkregen! - </battletext6.2>
+            </dialoog>
+    </level>
+
+                        <level id = "verdieping_7">
+            <items>
+                <item> Final Assignment 8 </item>
+                <item> item </item>
+                <item> item </item>
+            </items>
+            <actions>
+                <action>
+                    <description> Haal koffie </description>
+                    <level_reference>""</level_reference>
+                </action>
+                <action>
+                    <description> Pak de lift </description>
+                    <level_reference>""</level_reference>
+                </action>
+                <action>
+                    <description> Spreek de student aan </description>
+                    <level_reference>""</level_reference>
+                </action>
+            </actions>
+            <ascii>
+
+            </ascii>
+            <dialoog>
+                #Haal Koffie
+                <koffietext6.1>Koffiezetapparaat: "*BLIEP* Dit is het koffiezetapparaat van students.INC, Dit kost u alsnog geld *BLIEP*"</koffietext6.1>
+                #Lift
+                <lifttext6.1>Lift: "Deze glazen lift is ooit onderdeel geweest van een chocolade fabriek"</lifttext6.1>
+                #Spreekstudentaan
+                <studenttext6.1>Student1: "Jij mag hier helemaal niet komen groentje! Alleen de senior studenten zijn hier welkom. Wij aanbidden Bart op deze verdieping."</studenttext6.1>
+                <studenttext6.2>Player: (...)</studenttext6.2>
+                <studenttext6.3>Student1: Ik zal je een pak slaag geven op je muil."</studenttext6.3>
+                #Battle
+                <battletext7.1>Student1: "ARGH Mijn Windows Phone kapot, nu kan ik mijn e-mail van Bart niet meer lezen!"</battletext7.1>
+                <battletext7.2>Student1: "Uit schaamte zal ik je toegang geven tot deze verdieping. Je kan Bart op het dak vinden."</battletext7.2>
+                <battletext7.3> - Je hebt final assignment 8 verkregen! - </battletext7.3>
+            </dialoog>
+    </level>
+
+                        <level id = "verdieping_8">
+            <items>
+                <item> item </item>
+                <item> item </item>
+                <item> item </item>
+            </items>
+            <actions>
+                <action>
+                    <description> Haal koffie </description>
+                    <level_reference>""</level_reference>
+                </action>
+                <action>
+                    <description> Pak de TRAP </description>
+                    <level_reference>""</level_reference>
+                </action>
+            </actions>
+            <ascii>
+
+            </ascii>
+            <dialoog>
+                #Haal Koffie
+                <koffietext7>Koffiezetapparaat: "HIS POWER IS OVER 9000!"</koffietext7>
+                #Trap
+                <traptext>Trap: "STAIRS MY ONLY WEAKNESS!"</traptext>
+            </dialoog>
+    </level>
+
+  <ascii>
+      <studentLife_0>
+
+  _____  _               _               _     _       _   __
+
+
+      </studentLife_0>
+      <studentLife_1>
+
+    _____  _               _               _     _       _   __
+ / ____|| |             | |             | |   | |     (_) / _|
+
+      </studentLife_1>
+      <studentLife_2>
+
+    _____  _               _               _     _       _   __
+ / ____|| |             | |             | |   | |     (_) / _|
+| (___  | |_  _   _   __| |  ___  _ __  | |_  | |      _ | |_  ___
+
+      </studentLife_2>
+      <studentLife_3>
+
+    _____  _               _               _     _       _   __
+ / ____|| |             | |             | |   | |     (_) / _|
+| (___  | |_  _   _   __| |  ___  _ __  | |_  | |      _ | |_  ___
+ \___ \ | __|| | | | / _` | / _ \| '_ \ | __| | |     | ||  _|/ _ \
+
+      </studentLife_3>
+      <studentLife_4>
+
+    _____  _               _               _     _       _   __
+ / ____|| |             | |             | |   | |     (_) / _|
+| (___  | |_  _   _   __| |  ___  _ __  | |_  | |      _ | |_  ___
+ \___ \ | __|| | | | / _` | / _ \| '_ \ | __| | |     | ||  _|/ _ \
+ ____) || |_ | |_| || (_| ||  __/| | | || |_  | |____ | || | |  __/
+
+      </studentLife_4>
+      <studentLife_5>
+
+    _____  _               _               _     _       _   __
+ / ____|| |             | |             | |   | |     (_) / _|
+| (___  | |_  _   _   __| |  ___  _ __  | |_  | |      _ | |_  ___
+ \___ \ | __|| | | | / _` | / _ \| '_ \ | __| | |     | ||  _|/ _ \
+ ____) || |_ | |_| || (_| ||  __/| | | || |_  | |____ | || | |  __/
+|_____/  \__| \__,_| \__,_| \___||_| |_| \__| |______||_||_|  \___|
+
+    </studentLife_5>
+  </ascii>
+</all>
