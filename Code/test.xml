@@ -1,0 +1,38 @@
+<all>
+    <levels>
+        <level1_bart>
+            <dialoog>
+                <barttext1> Bart: Welkom allemaal bij de cursus python ik wil graag hoofdstuk 1 afzien binnen een uur.</barttext1>
+                <barttext1> Student1: Meneer hoe werkt python?</barttext1>
+                <barttext1> Bart: Mag ik helaas niet vertellen, dat moet je zelf uitzoeken. </barttext1>
+                <barttext1> *Klas wordt rumoerig* </barttext1>
+                <barttext1> *Je leest braaf je textboek en maakt de vragen van hoofdstuk 1.* </barttext1>
+                <barttext1> Bart: Oké, jullie hoeven alle opdrachten pas aan het einde van de periode in te leveren. Maar de final assingments moeten vanaf nu elke week worden nagekeken in de les. </barttext1>
+                <barttext1> Bart: Ik wil dus aan het einde van de periode jullie portfolio hebben in mijn mail met alle opdrachten en final assignments. </barttext1>
+                <barttext1> Student 1: Dat wordt simpel, toch? </barttext1>
+                <barttext1> *Zo veel dagen later dat je nog maar 5 dagen hebt om alles te maken en nog niks hebt* </barttext1>
+                <barttext1> - Verzamel alle opdrachten en doe er alles aan om ze bij elkaar te verzamelen </barttext1>
+            </dialoog>
+        </level1_bart>
+        <level1_koffie>
+            <dialoog>
+                <koffietext1> *Koffiezetapparaat: Er druipt bruine slurrie in een papieren bekertje* </koffietext1>
+            </dialoog>
+        </level1_koffie>
+        <level1_lift>
+            <dialoog>
+                <lifttext1>Player: "Beam me up scottie"</lifttext1>
+                <lifttext1>*player is nu een verdieping omhoog*</lifttext1>
+            </dialoog>
+        </level1_lift>
+        <level1_student>
+            <dialoog>
+                <studenttext1> Student1: "Hé ik heb final assingment 2 als jij 3 hebt?"</studenttext1>
+                <studenttext1> Player1: (...)</studenttext1>
+                <studenttext1> Student1: (...)</studenttext1>
+                <studenttext1> Player1: (...)</studenttext1>
+                <studenttext1>Student1: "Pak het maar als je kan!"</studenttext1>
+            </dialoog>
+        </level1_student>
+    </levels>
+</all>
