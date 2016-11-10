@@ -90,10 +90,10 @@ Sander: "I cut down trees, I skip and jump. I like to press wild flowers. I put 
 Sander: "I cut down trees, I wear high heels. Suspendies and a bra. I wish I'd been a girlie, just like my dear pappa."
 Player: "(...)"
 Sander: "Wat, denk je dat mijn code slecht is? Laat maar zien dat je het beter kan!"
-*battle starts*
-*battle ends*
+*Battle starts*
+*Battle ends*
 Sander: "On second thought, let's not go to Camelot. It is a silly place. "
-*you have Won*
+*You have Won*
 *Je hebt final assignment 6 verkregen!*
 
 Floor 6
@@ -124,4 +124,4 @@ Trap: "STAIRS MY ONLY WEAKNESS!"
 
 Roof
 
-Ultimate bart battle:
+Ultimate Bart battle:
