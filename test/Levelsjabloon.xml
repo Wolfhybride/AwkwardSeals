@@ -1,0 +1,24 @@
+<all>
+    <levels>
+        <level_naam>
+            <dialoog>
+                <text> text: blablabla.</text>
+            </dialoog>
+        </level_naam>
+        <level_koffie>
+            <dialoog>
+                <koffietext> "insert koffieapperaat dialoog" </koffietext>
+            </dialoog>
+        </level_koffie>
+        <level_lift>
+            <dialoog>
+                <lifttext>"insert lift dialoog"</lifttext>
+            </dialoog>
+        </level_lift>
+        <level_student>
+            <dialoog>
+                <studenttext1> "insert dialoog"</studenttext1>
+            </dialoog>
+        </level_student>
+    </levels>
+</all>
