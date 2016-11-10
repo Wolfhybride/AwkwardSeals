@@ -1,4 +1,4 @@
-<all>
+-<all>
 
   <characters>
     <player_0>
@@ -29,7 +29,7 @@
 
 
     <levels>
-        <level id="bart">
+        <bart>
             <items>
                 <item> Final Assignment 1 </item>
                 <item> item </item>
@@ -65,7 +65,7 @@
                 <barttext1.10> - Verzamel alle opdrachten en doe er alles aan om ze bij elkaar te verzamelen, anders wordt je uitgeschreven uit de opleiding!</barttext1.10>
             </dialoog>
         </level>
-        <level id = "verdieping_1">
+        <verdieping1>
                     <items>
                 <item> Final Assignment 2 </item>
                 <item> item </item>
@@ -107,7 +107,7 @@
             </dialoog>
         </level>
 
-        <level id = "verdieping_2">
+        <verdieping2>
             <items>
                 <item> Final Assignment 3 </item>
                 <item> item </item>
@@ -145,7 +145,7 @@
         </level>
     </levels>
 
-        <level id = "verdieping_3">
+        <verdieping3>
             <items>
                 <item> Final Assignment 4 </item>
                 <item> item </item>
@@ -182,7 +182,7 @@
             </dialoog>
     </level>
 
-            <level id = "verdieping_4">
+            <verdieping4>
             <items>
                 <item> Final Assignment 5 </item>
                 <item> item </item>
@@ -221,7 +221,7 @@
             </dialoog>
     </level>
 
-                <level id = "6_sander">
+                <sander6>
             <items>
                 <item> Final Assignment 6 </item>
                 <item> item </item>
@@ -256,7 +256,7 @@
             </dialoog>
     </level>
 
-                    <level id = "verdieping_6">
+                    <verdieping6>
             <items>
                 <item> Final Assignment 7 </item>
                 <item> item </item>
@@ -295,7 +295,7 @@
             </dialoog>
     </level>
 
-                        <level id = "verdieping_7">
+                        <verdieping7>
             <items>
                 <item> Final Assignment 8 </item>
                 <item> item </item>
@@ -334,7 +334,7 @@
             </dialoog>
     </level>
 
-                        <level id = "verdieping_8">
+                        <verdieping8>
             <items>
                 <item> item </item>
                 <item> item </item>
