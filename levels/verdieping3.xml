@@ -1,0 +1,26 @@
+<all>
+    <levels>
+        <floor3_koffie>
+            <dialoog>
+                <koffietext3>Koffiezetapparaat: "POWER REFILLED! ENJOY YOUR POWER HUMAN!"</koffietext3>
+            </dialoog>
+        </floor3_koffie>
+        <floor3_lift>
+            <dialoog>
+                <lifttext3> Lift: "Deze lift gaat 1 verdieping omhoog. niet 2 niet 3 maar 1 verdieping omhoog" </lifttext3>
+            </dialoog>
+        </floor3_lift>
+        <floor3_student>
+            <dialoog>
+                <studenttext3> Student1: "Ik hoorde dat jij iets hebt wat ik nodig heb. Het kan goed schiks of kwaad schiks jochie" </studenttext3>
+                <studenttext3> Player: (...) </studenttext3>
+            </dialoog>
+        </floor3_student>
+        <floor3_battle>
+            <dialoog>
+                <battletext3> Student1: "Wat een geluksvogel ben je ook. Uit goeie wil geef ik je een final assignment" </battletext3>
+                <battletext3> *Je hebt final assignment 4 gekregen* </battletext3>
+            </dialoog>
+        </floor3_battle>
+    </levels>
+</all>
