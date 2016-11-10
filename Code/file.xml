@@ -7,10 +7,10 @@
 		<energy>20</energy>
 		<moneyz>5</moneyz>
 		<inventory>
-- Laptop
-- Note_1
-- Homework_Assignment_1
-- Pen
+<item_0>  Laptop</item_0>
+<item_1>  Note_1</item_1>
+<item_2>  Homework_Assignment_1</item_2>
+<item_3>  Pen</item_3>
 		</inventory>
     </player_0>
 	<player_1>
@@ -18,61 +18,153 @@
 		<health>10</health>
 		<energy>20</energy>
 		<moneyz>3</moneyz>
-		<inventory>
-			<item>Laptop</item>
-			<item>Note_1</item>
-			<item>Homework_Assignment_1</item>
-			<item>Pen</item>
-		</inventory>
+        <item>Laptop</item>
+        <item>Note_1</item>
+        <item>Homework_Assignment_1</item>
+        <item>Pen</item>
 	</player_1>
   </characters>
   
   <ascii>
-      <studentLife_0>
+      <studentLife>
+        <studentLife_0>
 
   _____  _               _               _     _       _   __
 
 
-      </studentLife_0>
-      <studentLife_1>
+        </studentLife_0>
+        <studentLife_1>
 
-    _____  _               _               _     _       _   __
  / ____|| |             | |             | |   | |     (_) / _|
 
-      </studentLife_1>
-      <studentLife_2>
+        </studentLife_1>
+        <studentLife_2>
 
-    _____  _               _               _     _       _   __
- / ____|| |             | |             | |   | |     (_) / _|
 | (___  | |_  _   _   __| |  ___  _ __  | |_  | |      _ | |_  ___
 
-      </studentLife_2>
-      <studentLife_3>
+        </studentLife_2>
+        <studentLife_3>
 
-    _____  _               _               _     _       _   __
- / ____|| |             | |             | |   | |     (_) / _|
-| (___  | |_  _   _   __| |  ___  _ __  | |_  | |      _ | |_  ___
  \___ \ | __|| | | | / _` | / _ \| '_ \ | __| | |     | ||  _|/ _ \
 
-      </studentLife_3>
-      <studentLife_4>
+        </studentLife_3>
+        <studentLife_4>
 
-    _____  _               _               _     _       _   __
- / ____|| |             | |             | |   | |     (_) / _|
-| (___  | |_  _   _   __| |  ___  _ __  | |_  | |      _ | |_  ___
- \___ \ | __|| | | | / _` | / _ \| '_ \ | __| | |     | ||  _|/ _ \
  ____) || |_ | |_| || (_| ||  __/| | | || |_  | |____ | || | |  __/
 
-      </studentLife_4>
-      <studentLife_5>
+        </studentLife_4>
+        <studentLife_5>
 
-    _____  _               _               _     _       _   __
- / ____|| |             | |             | |   | |     (_) / _|
-| (___  | |_  _   _   __| |  ___  _ __  | |_  | |      _ | |_  ___
- \___ \ | __|| | | | / _` | / _ \| '_ \ | __| | |     | ||  _|/ _ \
- ____) || |_ | |_| || (_| ||  __/| | | || |_  | |____ | || | |  __/
 |_____/  \__| \__,_| \__,_| \___||_| |_| \__| |______||_||_|  \___|
 
-    </studentLife_5>
-  </ascii>
+        </studentLife_5>
+      </studentLife>
+    <levels>
+        <level1>
+
+#                                                        #
+|XXXX                X        XXXXXXXX                   |
+|XXXX                X        XXXXXXXX                   |
+|XXXX                X                                   |
+|XXXX                X                                 XX|
+|XXXX                X                                 XX|
+|                    X                                 XX|
+|                    X                                 XX|
+|                    X                                 XX|
+|                    X                                   |
+|                    X                                 XX|
+|                                                      XX|
+|                                                      XX|
+|                    X                                 XX|
+|                    X                                 XX|
+|                    X                                   |
+|                    X                                   |
+|                    X                                   |
+|                    X                                   |
+|                    X                                   |
+|                    X                                   |
+|                    X                                   |
+|XXXXXXXXXXXX XXXXXXXXXX XXXXXXX XXXXXXX X XXXXXXXXXXXXX |
+|XXXXXXXXXXXXX XXXXXX XXX X XXXXXXX XXXX   XX  XX XX X XX|
+|XXXXXXXXX X XXX XX XX X X X  X  XXX   X   X  X XXXXX   X|
+|XX X XX XXXXX   X X XX XXXXXXX XXX   X X XX XXXXXXXXXXXX|
+#                                                        #
+
+          </level1>
+        <level2>
+
+#                                                        #
+|XXX X  X X XX X X   X X    XXXXXXXX                  XXX|
+|X XX X            X X X    XXXXXXXX                  XXX|
+|X XX XXX X X X  X X X X                              XXX|
+|X X X X X  X X  X   X X                              XXX|
+|X X XXX  X  X  X X  X X                                 |
+|X X X X  X XX X  XX X X                                 |
+|X X X X XX X   X    X X                                 |
+|X X X X    XX  XX X X X                                 |
+|X X XXX  X   XXX X  X X                                 |
+|X X XXX X  X X X    X X                                 |
+|X X XX X  XX X X X  X X                                 |
+|X X XXX X X  X X XX X X                                 |
+|X X  XX   X  X X  X X XXXXXXXXXXXXX    XXXXXXXXXXXXXXXXX|
+|X X XX  X X   X  XXXX X                                 |
+|X X X X   X  X X    X X                                 |
+|X X X     X  XXX X  XXX                                 |
+|X X X X X X    X X  X X                                 |
+|X X XXX X X  X X    X X                                 |
+|X X XXX   X XX X XX X X                                 |
+|X X XXX XXX XX X XX X X                                 |
+|XXXXXXXX  XXXXX X XXX X                                 |
+|XXXX XXXXXXX XX XXXXXXX XXXXXXX XXXXXXX X XXXXXXXXXXXXX |
+|XXXXXXXXXXXXX XXX  X XXX X XXXXXXX XXXX   XX  XX XX X XX|
+|XXXXXXXXX X XXX XX XX X X X  X  XXX   X   X  X XXXXX   X|
+|XX X XX XXXXX   X X XX XXXXXXX XXX   X X XX XXXXXXXXXXXX|
+#                                                        #
+
+        </level2>
+      </levels>
+    <map>
+        <map_8>
+
+            @@ = koffie apparaat
+            ## = studieruimte
+
+
+                                    Dak
+             _------------------------------------------------_
+            |     @@                                     ######| Floor 8
+            |--------------------------------------------------|
+            |                                   ###############| Floor 7
+            |--------------------------------------------------|
+            |#####################        #########            | Floor 6
+            |--------------------------------------------------|
+            |       @@     ##################   @@             | Floor 5
+            |--------------------------------------------------|
+            |                                        ##########| Floor 4
+            |--------------------------------------------------|
+            |      ####        @@           ###################| Floor 3
+            |--------------------------------------------------|
+            |       ##############   @@               #########| Floor 2
+            |--------------------------------------------------|
+            |########            ############                  | Floor 1
+            |--------------------------------------------------|
+            |    @@                                            | Floor 0
+            +--------------------------------------------------+
+
+        </map_8>
+    </map>
+    </ascii>
+
+    <text>
+        <menu>
+            <startMenu>
+                <item_1>(1) [ Continue ] (1)</item_1>
+                <item_2>(2) [ New Game ] (2)</item_2>
+                <item_3>(3) [ Load Game ] (3)</item_3>
+                <item_4>(4) [ Settings ] (4)</item_4>
+                <item_5>(5) [ Exit ] (5)</item_5>
+            </startMenu>
+        </menu>
+    </text>
+
 </all>

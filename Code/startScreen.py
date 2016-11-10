@@ -1,51 +1,58 @@
-import xmltodict
-from tkinter import *
-import time
+from main import *
+from menuStartScreen import startMenu
+from help import help
 
+def startScreenfunction():
+    def return_entry(data):                                   #gets input and returns it
+        data = console.get()
+        console.delete(0, END)
+        console.insert(0, string = ">>> ")
+        choose(data)
+        return data
 
+    console.bind('<Return>', return_entry)
 
-with open("file.xml") as fd:
-    doc = xmltodict.parse(fd.read())
+    startMenu()
+    write("\n")
 
-root = Tk()
+    def choose(choice):                                         #raw data that write(string) prints to the screen as text
+       mainWindow.delete(0, END)
+       if (choice == ">>> 1"):
+           startMenu()
+           write("")
+           write(">>> You choose: Continue!")
 
-def studentLifeASCII():
-    print(
-        "  " + str(doc['all']['ascii']['studentLife_0'])
-    )
-    time.sleep(0.5)
-    print(
-        "  " + str(doc['all']['ascii']['studentLife_1'])
-    )
-    time.sleep(0.5)
-    print(
-        "  " + str(doc['all']['ascii']['studentLife_2'])
-    )
-    time.sleep(0.5)
-    print(
-        "  " + str(doc['all']['ascii']['studentLife_3'])
-    )
-    time.sleep(0.5)
-    print(
-        "  " + str(doc['all']['ascii']['studentLife_4'])
-    )
-    time.sleep(0.5)
-    print(
-        "  " + str(doc['all']['ascii']['studentLife_5'])
-    )
-    time.sleep(0.5)
+       elif (choice == ">>> 2"):
+           startMenu()
+           write("")
+           write(">>> You choose: New Game!")
 
-#studentLifeASCII()
+       elif (choice == ">>> 3"):
+           startMenu()
+           write("")
+           write (">>> You choose: Load Game!")
 
-label = LabelFrame(master = root,
-            background = 'black',
-            text = (studentLifeASCII()),
-            justify = 'left',
-            font = ("Ariel", 10),
-            foreground = 'white',
-            height = 30,
-            width = 100)
+       elif (choice == ">>> 4"):
+           startMenu()
+           write("")
+           write(">>> You choose: Settings!")
 
-print(label)
+       elif (choice == ">>> 5"):
+            raise SystemExit
 
-root.mainloop()
+       elif (choice == ">>> help"):
+           help()
+           if choice == ">>> ":
+               startMenu()
+               write(">>> You choose: help!")
+       else:
+           startMenu()
+           write("")
+           if choice != ">>> ":
+                write(">>> That is not a valid command!")
+           else:
+               write("")
+
+startScreenfunction()
+
+mainloop()

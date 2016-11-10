@@ -1,30 +1,17 @@
-import xmltodict
-import time
+from main import *
 
-with open("file.xml") as fd:
-    doc = xmltodict.parse(fd.read())
-
-#for key in (doc['all']['characters']['player_0']):
-#    print("{:6}".format(key),":","{:15}".format((doc['all']['characters']['player_0'])[key]))
-#    time.sleep(0.3)
-
-def name():
-    print(" Name:","{:6}".format(doc['all']['characters']['player_0']['name']))
-def health():
-    print(" Health:","{:6}".format(doc['all']['characters']['player_0']['health']))
-def energy():
-    print(" Energy:","{:6}".format(doc['all']['characters']['player_0']['energy']))
-def moneyz():
-    print(" Moneyz:","{:6}".format(doc['all']['characters']['player_0']['moneyz']))
-def inventory():
-    print(" Inventory:\n" + "{:6}".format((doc['all']['characters']['player_0']['inventory'])))
-name()
-time.sleep(.3)
-health()
-time.sleep(.3)
-energy()
-time.sleep(.3)
-moneyz()
-time.sleep(.3)
-print("")
-inventory()
+def player():
+    try:
+        write("Name: " + (doc['all']['characters']['player_0']['name']))
+        write("Health: " + (doc['all']['characters']['player_0']['health']))
+        write("Energy: " + (doc['all']['characters']['player_0']['energy']))
+        write("Moneyz: " + (doc['all']['characters']['player_0']['moneyz']))
+        write("Inventory:")
+        write((doc['all']['characters']['player_0']['inventory']['item_0']))
+        write((doc['all']['characters']['player_0']['inventory']['item_1']))
+        write((doc['all']['characters']['player_0']['inventory']['item_2']))
+        write((doc['all']['characters']['player_0']['inventory']['item_3']))
+        write((doc['all']['characters']['player_0']['inventory']['item_4']))
+    except KeyError:
+        return("")
+    return("")

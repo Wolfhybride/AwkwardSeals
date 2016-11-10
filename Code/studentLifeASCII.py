@@ -1,55 +1,11 @@
-from tkinter import *
-import xmltodict
-import time
-import os
+from main import *
 
-with open("file.xml") as fd:
-    doc = xmltodict.parse(fd.read())
+def studentLife():
+    write("             " + str(doc['all']['ascii']['studentLife']['studentLife_0']))
+    write("            " + str(doc['all']['ascii']['studentLife']['studentLife_1']))
+    write("           " + str(doc['all']['ascii']['studentLife']['studentLife_2']))
+    write("            " + str(doc['all']['ascii']['studentLife']['studentLife_3']))
+    write("            " + str(doc['all']['ascii']['studentLife']['studentLife_4']))
+    write("           " + str(doc['all']['ascii']['studentLife']['studentLife_5']))
+    return("")
 
-def studentLifeASCII():
-    print(
-        "  " + str(doc['all']['ascii']['studentLife_0'])
-    )
-    time.sleep(0.3)
-    try:
-        os.system('cls')
-    except OSError:
-        os.system('clear')
-    print(
-        "  " + str(doc['all']['ascii']['studentLife_1'])
-    )
-    time.sleep(0.3)
-    try:
-        os.system('cls')
-    except OSError:
-        os.system('clear')
-    print(
-        "  " + str(doc['all']['ascii']['studentLife_2'])
-    )
-    time.sleep(0.3)
-    try:
-        os.system('cls')
-    except OSError:
-        os.system('clear')
-    print(
-        "  " + str(doc['all']['ascii']['studentLife_3'])
-    )
-    time.sleep(0.3)
-    try:
-        os.system('cls')
-    except OSError:
-        os.system('clear')
-    print(
-        "  " + str(doc['all']['ascii']['studentLife_4'])
-    )
-    time.sleep(0.3)
-    try:
-        os.system('cls')
-    except OSError:
-        os.system('clear')
-    print(
-        "  " + str(doc['all']['ascii']['studentLife_5'])
-    )
-    time.sleep(0.3)
-
-studentLifeASCII()
