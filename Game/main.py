@@ -1,6 +1,5 @@
 from tkinter import *
 import xmltodict
-import time
 
 with open("file.xml") as fd:
     doc = xmltodict.parse(fd.read())
@@ -15,18 +14,18 @@ mainWindow = Text(
     width=100,
     background = ('black'),
     foreground = ('white'),
-    font = ('Courier',12),
+    font = ('Courier',10,'bold'),
     cursor = 'plus',
     state = 'disable',
 )
 mainWindow.pack(anchor = 'center', side = 'top')
+mainWindow.winfo_geometry()
 
 def write(string):                                          #print stuff to screen as text
     mainWindow.config(state='normal')
     mainWindow.insert("end", "     " + string + "\n")
     mainWindow.see("end")
     mainWindow.config(state='disable')
-
 
 console = Entry(root,
                 width=100,
@@ -40,5 +39,4 @@ console.pack(anchor = 'center',
              #fill = 'both',
              side = 'bottom'
              )
-
 console.insert(0,">>> ")
