@@ -11,32 +11,32 @@ console.bind('<Return>', return_entry)
 
 def defeat1():
 
-    print("Hier heb je je Final Assingment 2")
-    print("*Je hebt final Assingment 2 verkregen!")
+    write("Hier heb je je Final Assingment 2")
+    write("*Je hebt final Assingment 2 verkregen!")
 
 def defeat2():
-    print("Oké oké ik ga al")
-    print("*Je hebt final Assingment 3 verkregen!*")
+    write("Oké oké ik ga al")
+    write("*Je hebt final Assingment 3 verkregen!*")
 
 def defeat3():
-    print("Wat een geluksvogel ben je ook. Uit goeie wil geef ik je een final Assignment")
-    print("*Je hebt final Assignment 4 gekregen*")
+    write("Wat een geluksvogel ben je ook. Uit goeie wil geef ik je een final Assignment")
+    write("*Je hebt final Assignment 4 gekregen*")
 
 def defeat4():
-    print("Oké oké ik ga al weg.. Sla me niet aub! Hier heb je Final Assignment 5")
-    print("Je hebt Final Assignment 5 gekregen!")
+    write("Oké oké ik ga al weg.. Sla me niet aub! Hier heb je Final Assignment 5")
+    write("Je hebt Final Assignment 5 gekregen!")
 
 def defeat5():
-    print("*You have won*")
-    print("*Je hebt final assignment 6 verkregen!")
+    write("*You have won*")
+    write("*Je hebt final assignment 6 verkregen!")
 
 def defeat6():
-    print("*Student1 rent weg en laat uit paniek zijn laptop liggen met het document open. Je mailt het naar jezelf*")
-    print("*Je hebt final assignment 7 verkregen!")
+    write("*Student1 rent weg en laat uit paniek zijn laptop liggen met het document open. Je mailt het naar jezelf*")
+    write("*Je hebt final assignment 7 verkregen!")
 
 def defeat7():
-    print("Uit schaamte zal ik je toegang geven tot deze verdieping. Je kan Bart op het dak vinden.")
-    print("* Je hebt final assignment 8 verkregen!")
+    write("Uit schaamte zal ik je toegang geven tot deze verdieping. Je kan Bart op het dak vinden.")
+    write("* Je hebt final assignment 8 verkregen!")
 
 health_Player = 15
 health_Student1 = 5
@@ -48,6 +48,7 @@ def choose(choice):                                         #raw data that write
 
    elif health_Student1 <= 0:
      write("You are VICTORIOUS!")
+     write(defeat1())
 
 
    elif (choice == ">>> 1"):
