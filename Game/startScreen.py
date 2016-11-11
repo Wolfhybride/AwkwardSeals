@@ -15,6 +15,7 @@ console.bind('<Return>', return_entry)
 derp = -1
 hurr = 0
 level = 0
+
 def next():
     global derp
     derp = derp + 1
