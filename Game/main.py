@@ -1,7 +1,7 @@
 from tkinter import *
 import xmltodict
 
-with open("file.xml") as fd:
+with open("database.xml") as fd:
     doc = xmltodict.parse(fd.read())
 
 root = Tk()
@@ -17,8 +17,9 @@ mainWindow = Text(
     font = ('Courier',10,'bold'),
     cursor = 'plus',
     state = 'disable',
+    wrap = WORD,
 )
-mainWindow.pack(anchor = 'center', side = 'top')
+mainWindow.pack(anchor = 'n', side = 'top')
 mainWindow.winfo_geometry()
 
 def write(string):                                          #print stuff to screen as text

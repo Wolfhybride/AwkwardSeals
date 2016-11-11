@@ -12,6 +12,14 @@ def startScreenfunction():
 
     console.bind('<Return>', return_entry)
 
+    derp = 0
+    def next():
+        global derp
+        if derp > 16:
+            return 0
+        derp = derp + 1
+        return derp
+
     startMenu()
     write("\n")
 
@@ -20,7 +28,101 @@ def startScreenfunction():
        if (choice == ">>> 1"):
            startMenu()
            write("")
-           write(">>> You choose: Continue!")
+           write(">>> You choose: Play!")
+           hurr = 1
+       if hurr == 1:
+           write("\n")
+           write(doc['root']['levels']['bart']['dialoog']['barttext1.1'])
+           write("")
+       elif (hurr == 1) and (choice == (">>> ")):
+           next()
+           # if (derp == 0):
+           #
+           if (derp == 1):
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.2'])
+               write("")
+           elif (derp == 2):
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.3'])
+               write("")
+           elif (derp == 3):
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.0'])
+               write("")
+           elif (derp == 4):
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.4'])
+               write("")
+           elif (derp == 5):
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.0'])
+               write("")
+           elif (derp == 6):
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.0'])
+               write("")
+           elif (derp == 7):
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.5'])
+               write("")
+           elif (derp == 8):
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.6'])
+               write("")
+           elif (derp == 9):
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.7'])
+               write("")
+           elif (derp == 10):
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.8'])
+               write("")
+           elif (derp == 11):
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.0'])
+               write("")
+           elif (derp == 12):
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.0'])
+               write("\n" * 26)
+           elif (derp == 13):
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.0'])
+               write("")
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.0'])
+               write("\n" * 24)
+           elif (derp == 14):
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.0'])
+               write("")
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.0'])
+               write("")
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.9'])
+               write("\n" * 22)
+           elif (derp == 15):
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.0'])
+               write("")
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.0'])
+               write("")
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.9'])
+               write("")
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.10'])
+               write("\n" * 20)
+           elif (derp == 16):
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.0'])
+               write("")
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.0'])
+               write("")
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.9'])
+               write("")
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.10'])
+               write("")
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.11'])
+               write("\n" * 18)
+           elif (derp == 17):
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.0'])
+               write("")
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.0'])
+               write("")
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.9'])
+               write("")
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.10'])
+               write("")
+               write(doc['root']['levels']['bart']['dialoog']['barttext1.11'])
+               write("")
+               write("Set sail for fail!")
+               write("")
+               write("    " + str(doc['root']['ascii']['boat']['boat_0']))
+               write(" " + str(doc['root']['ascii']['boat']['boat_1']))
+               write("   " + str(doc['root']['ascii']['boat']['boat_2']))
+               write("\n" * 12)
 
        elif (choice == ">>> 2"):
            startMenu()
@@ -30,14 +132,9 @@ def startScreenfunction():
        elif (choice == ">>> 3"):
            startMenu()
            write("")
-           write (">>> You choose: Load Game!")
-
-       elif (choice == ">>> 4"):
-           startMenu()
-           write("")
            write(">>> You choose: Settings!")
 
-       elif (choice == ">>> 5"):
+       elif (choice == ">>> 4"):
             raise SystemExit
 
        elif (choice == ">>> help"):
@@ -52,7 +149,7 @@ def startScreenfunction():
                 write(">>> That is not a valid command!")
            else:
                write("")
-
+       write("")
 startScreenfunction()
 
 mainloop()

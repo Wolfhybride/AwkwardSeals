@@ -18,5 +18,6 @@ help()
 def choose(choice):                                         #raw data that write(string) prints to the screen as text
    if (choice == ">>> "):
        startScreenderp()
+       write("")
 
 mainloop()

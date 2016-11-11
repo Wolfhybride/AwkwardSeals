@@ -5,26 +5,24 @@ def startMenu():
     write("")
     write("~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~")
 
-    write("             " + str(doc['all']['ascii']['studentLife']['studentLife_0']))
-    write("            " + str(doc['all']['ascii']['studentLife']['studentLife_1']))
-    write("           " + str(doc['all']['ascii']['studentLife']['studentLife_2']))
-    write("            " + str(doc['all']['ascii']['studentLife']['studentLife_3']))
-    write("            " + str(doc['all']['ascii']['studentLife']['studentLife_4']))
-    write("           " + str(doc['all']['ascii']['studentLife']['studentLife_5']))
+    write("             " + str(doc['root']['ascii']['studentLife']['studentLife_0']))
+    write("            " + str(doc['root']['ascii']['studentLife']['studentLife_1']))
+    write("           " + str(doc['root']['ascii']['studentLife']['studentLife_2']))
+    write("            " + str(doc['root']['ascii']['studentLife']['studentLife_3']))
+    write("            " + str(doc['root']['ascii']['studentLife']['studentLife_4']))
+    write("           " + str(doc['root']['ascii']['studentLife']['studentLife_5']))
 
     write("")
     write("~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~")
     write("")
 
-    write("                                 " + str(doc['all']['text']['menu']['startMenu']['item_1']))
+    write("                                   " + str(doc['root']['menu']['startMenu']['item_1']))
     write("")
-    write("                                 " + str(doc['all']['text']['menu']['startMenu']['item_2']))
+    write("                                 " + str(doc['root']['menu']['startMenu']['item_2']))
     write("")
-    write("                                 " + str(doc['all']['text']['menu']['startMenu']['item_3']))
+    write("                                 " + str(doc['root']['menu']['startMenu']['item_3']))
     write("")
-    write("                                 " + str(doc['all']['text']['menu']['startMenu']['item_4']))
-    write("")
-    write("                                   " + str(doc['all']['text']['menu']['startMenu']['item_5']))
+    write("                                   " + str(doc['root']['menu']['startMenu']['item_4']))
 
     write("")
     write("~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~")
@@ -36,5 +34,6 @@ def startMenu():
     write("")
     write("~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~")
 
+    write("")
     return("")
 
