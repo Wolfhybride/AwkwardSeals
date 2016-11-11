@@ -14,10 +14,9 @@ console.bind('<Return>', return_entry)
 
 derp = -1
 hurr = 0
+level = 0
 def next():
     global derp
-    if derp > 16:
-        return 0
     derp = derp + 1
     return derp
 
@@ -27,6 +26,7 @@ write("\n")
 
 def choose(choice):                                         #raw data that write(string) prints to the screen as text
    mainWindow.delete(0, END)
+
    if (choice == ">>> 1"):  # Start spel + Uitleg
        startMenu()
        write("")
@@ -44,9 +44,11 @@ def choose(choice):                                         #raw data that write
 #########################################################################################################################
    # Proloog Begin
 #########################################################################################################################
-   elif (hurr == 1):
+   if (hurr == 1):
        next()
        write("")
+       if (choice == '>>> 1'):
+           print("OK!")
        if (choice == (">>> ") and (derp == 0)):
            write(doc['root']['levels']['bart']['dialoog']['barttext1.1'])
            write("")
@@ -128,7 +130,6 @@ def choose(choice):                                         #raw data that write
            write("")
            write(doc['root']['levels']['bart']['dialoog']['barttext1.5'])
            write("")
-
            write("\n" * 8)
        elif (derp == 8):
            write("")
@@ -274,10 +275,20 @@ def choose(choice):                                         #raw data that write
            write(" " + str(doc['root']['ascii']['boat']['boat_1']))
            write("   " + str(doc['root']['ascii']['boat']['boat_2']))
            write("\n" * 11)
+           hurr = 0
            global level
            level = 1
+#########################################################################################################################
+# Proloog Eind
+#########################################################################################################################
 
-
+#########################################################################################################################
+# Level 1 Begin
+#########################################################################################################################
+   elif (level == 1):
+       write(doc['root']['levels']['verdieping1']['dialoog']['text1.0'])
+       write(doc['root']['levels']['verdieping1']['dialoog']['text1.1'])
+       write("\n" * 23)
 
    elif (choice == ">>> 2"):
        startMenu()
