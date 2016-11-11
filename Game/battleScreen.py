@@ -9,6 +9,9 @@ def return_entry(data):                                   #gets input and return
 
 console.bind('<Return>', return_entry)
 
+def start1():
+    write("PLAYER 1, BATTLE STARTS")
+
 def defeat1():
 
     write("Hier heb je je Final Assingment 2")
@@ -75,5 +78,5 @@ def choose(choice):                                         #raw data that write
 
 
 #startScreenfunction()
-
+start1()
 mainloop()
