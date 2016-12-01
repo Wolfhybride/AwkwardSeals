@@ -1,0 +1,167 @@
+<root>
+    <start>
+        <screen>
+      ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+                    _____  _               _               _     _       _   __
+                   / ____|| |             | |             | |   | |     (_) / _|
+                  | (___  | |_  _   _   __| |  ___  _ __  | |_  | |      _ | |_  ___
+                   \___ \ | __|| | | | / _` | / _ \| '_ \ | __| | |     | ||  _|/ _ \
+                   ____) || |_ | |_| || (_| ||  __/| | | || |_  | |____ | || | |  __/
+                  |_____/  \__| \__,_| \__,_| \___||_| |_| \__| |______||_||_|  \___|
+
+      ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+                                         (1) [ Play ] (1)
+
+                                       (2) [ New Game ] (2)
+
+                                       (3) [ Settings ] (3)
+
+                                         (4) [ Exit ] (4)
+
+      ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+                  This is a text based game. Use the console to type in commands.
+                           For a list of available commands type 'help'.
+
+      ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+
+
+
+        </screen>
+        <input>
+            <one>
+    >>> 1,>>> play,>>> Play,>>> start,>>> Start
+            </one>
+            <two>
+    >>> 2,>>> settings,>>> Settings
+            </two>
+            <three>
+    >>> 3,>>> exit,>>> Exit,>>> stop,>>> Stop
+            </three>
+            <four>
+    >>> help
+            </four>
+        </input>
+        <output>
+            <one>
+                >>> You choose: play!
+            </one>
+            <two>
+                >>> You choose: Settings!
+            </two>
+            <three>
+                >>> You choose: Exit!
+            </three>
+            <four>
+    ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+                    _____  _               _               _     _       _   __
+                   / ____|| |             | |             | |   | |     (_) / _|
+                  | (___  | |_  _   _   __| |  ___  _ __  | |_  | |      _ | |_  ___
+                   \___ \ | __|| | | | / _` | / _ \| '_ \ | __| | |     | ||  _|/ _ \
+                   ____) || |_ | |_| || (_| ||  __/| | | || |_  | |____ | || | |  __/
+                  |_____/  \__| \__,_| \__,_| \___||_| |_| \__| |______||_||_|  \___|
+
+    ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+    
+    
+    Available commands:
+    1 : Continue with the game.
+    2: Start a new game.
+    3: Load in a save game.
+    4: Load the settings menu.
+    5: exit the game.
+    
+    Press ENTER to return to the main menu.
+
+
+
+
+
+
+
+
+
+            </four>
+        </output>
+        <ascii>
+                               _____  _               _               _     _       _   __
+                              / ____|| |             | |             | |   | |     (_) / _|
+                             | (___  | |_  _   _   __| |  ___  _ __  | |_  | |      _ | |_  ___
+                              \___ \ | __|| | | | / _` | / _ \| '_ \ | __| | |     | ||  _|/ _ \ 
+                              ____) || |_ | |_| || (_| ||  __/| | | || |_  | |____ | || | |  __/
+                             |_____/  \__| \__,_| \__,_| \___||_| |_| \__| |______||_||_|  \___|
+        </ascii>
+    </start>
+
+    <level_1>
+        <prologue>
+            <txt1>
+    This is a text based game where you use text written instructions to execture commands in-game to get further in the story.
+
+    Commands include:
+
+    help - List of available commands
+    save - save your progress in the game
+    ENTER key - progress dialogue.
+
+    First you will get a prologue explaining the goal of the game. After that your adventure will begin!
+
+    Press the ENTER key to begin!
+            </txt1>
+            <txt2>
+    Om de cursus programmeren succesvol af te ronden voor je ICT studie moet je alle opdrachten
+    inleveren. De docent die je hierbij begeleid is Bart. Het is de eerste dag op de studie.
+            </txt2>
+            <txt3>
+    Docent Bart: Welkom allemaal bij de cursus Python. Ik wil graag dat we hoofdstuk 1 binnen
+    een uur hebben afgerond.
+            </txt3>
+            <txt4>
+    Student1: Meneer hoe werkt python?
+            </txt4>
+            <txt5>
+    Docent Bart: Mag ik helaas niet vertellen, dat moet je zelf uitzoeken.
+            </txt5>
+            <txt6>
+    . . .
+            </txt6>
+            <txt7>
+    * Klas wordt rumoerig *
+            </txt7>
+            <txt8>
+    . . .
+            </txt8>
+            <txt9>
+    . . .
+            </txt9>
+            <txt10>
+    * Je leest braaf je textboek en maakt de vragen van hoofdstuk 1. *
+            </txt10>
+            <txt11>
+    Docent Bart: Oke, jullie hoeven alle opdrachten pas aan het einde van de periode in te
+        leveren. Maar de final assignments moeten vanaf nu elke week worden nagekeken in de les.
+            </txt11>
+            <txt12>
+    Docent Bart: Ik wil dus aan het einde van de periode jullie portfolio hebben in mijn e-mail
+    met alle opdrachten en final assignments.
+            </txt12>
+        </prologue>
+
+
+        <interact>
+
+        </interact>
+
+        <items>
+
+        </items>
+
+        <ascii>
+
+        </ascii>
+
+    </level_1>
+
+</root>

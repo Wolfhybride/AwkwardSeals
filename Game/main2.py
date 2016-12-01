@@ -1,7 +1,7 @@
 from tkinter import *
 import xmltodict
 
-with open("database.xml") as fd:
+with open("xml.xml") as fd:
     doc = xmltodict.parse(fd.read())
 
 root = Tk()

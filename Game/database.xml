@@ -75,9 +75,11 @@
             </ascii>
             <dialoog>
                 <text1.0>Je staat op de eerste verdieping</text1.0>
-                <text1.1>Er staat een koffiezet apparaat</text1.1>
+                <text1.1>Er staat een (koffiezet apparaat)</text1.1>
+                <text1.2>Er is een andere (student) aanwezig in de kamer waar je bent</text1.2>
                 <koffietext1.0>Koffiezetapparaat</koffietext1.0>
-                <koffietext1.1> *Koffiezetapparaat: Er druipt een bruine slurrie in een papieren bekertje* </koffietext1.1>
+                <koffietext1.1> Koffiezetapparaat: Er druipt een bruine slurrie in een papieren bekertje </koffietext1.1>
+                <koffietext1.2>+5 energy!</koffietext1.2>
                 #Pak de lift naar de tweede verdieping
             	<lifttext1.1> Lift: "Beam me up scottie" </lifttext1.1>
                 <lifttext1.2> Player is nu een verdieping omhoog </lifttext1.2>
