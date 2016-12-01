@@ -39,7 +39,7 @@ mainWindow.winfo_geometry()
 
 def write(string):                                          #print stuff to screen as text
     mainWindow.config(state='normal')
-    mainWindow.insert("end", "     " + string + "\n")
+    mainWindow.insert("end", "    " + string + "\n")
     mainWindow.see("end")
     mainWindow.config(state='disable')
 
